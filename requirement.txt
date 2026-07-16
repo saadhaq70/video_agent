@@ -1,0 +1,44 @@
+# ── AI Meeting Assistant ── requirements.txt ──────────────────────────────────
+# Python >= 3.11 recommended (3.12 also supported)
+
+# ── Audio / Video acquisition ─────────────────────────────────────────────────
+yt-dlp>=2026.6.30
+pydub>=0.25.1
+ffmpeg-python>=0.2.0
+
+# ── Speech-to-Text (Local Whisper) ────────────────────────────────────────────
+openai-whisper>=20250625
+torch>=2.8.0
+torchaudio>=2.8.0
+
+# ── Translation ───────────────────────────────────────────────────────────────
+deep-translator>=1.11.4
+
+# ── LangChain + Mistral ───────────────────────────────────────────────────────
+langchain>=0.3.27
+langchain-core>=0.3.75
+langchain-community>=0.3.27
+langchain-mistralai>=0.2.12
+mistralai>=1.9.10
+
+# ── RAG Pipeline ──────────────────────────────────────────────────────────────
+chromadb>=1.0.20
+sentence-transformers>=5.1.0
+langchain-huggingface>=0.3.1
+huggingface-hub>=0.34.4
+tiktoken>=0.11.0
+
+# ── Streamlit UI ──────────────────────────────────────────────────────────────
+streamlit>=1.49.0
+streamlit-extras>=0.7.8
+watchdog>=6.0.0
+
+# ── PDF Export ────────────────────────────────────────────────────────────────
+reportlab>=4.4.3
+fpdf2>=2.8.4
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.1.1
+numpy>=2.3.2
+tqdm>=4.67.1
+requests>=2.32.5
